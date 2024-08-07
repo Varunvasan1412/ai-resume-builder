@@ -8,8 +8,6 @@ function Buttons() {
     <div className="absolute top-0 right-0 mr-5 mt-7 flex space-x-4">
       {isSignedIn ? (
         <div className="flex space-x-4">
-          {" "}
-          {/* Added space-x-4 for horizontal spacing */}
           <Link to="/dashboard">
             <button className="px-6 py-2 rounded-full text-white bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 hover:from-blue-500 hover:via-blue-600 hover:to-blue-700 transition duration-300 font-semibold">
               Dashboard
